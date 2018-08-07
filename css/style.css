@@ -100,6 +100,9 @@ nav ul li:active {
 	box-shadow: inset 1px 1px 3px 2px #376099;
 
 }
+a {
+	color: #458CBC;
+}
 
 h1 {
 	text-align: center;
@@ -112,6 +115,11 @@ h2 {
 	text-align: left;
 	border-bottom: medium solid #458CBC;
 	margin-top: 5px;
+}
+
+.roomtable {
+	margin: 0px;
+	width: 250px;
 }
 
 #hide {

@@ -12,15 +12,13 @@
 	<div id="content">
 		<div id="page">
 
-<h1>CCU 找室友</h1>
-
 <div class="box_1">
 	<h2>簡介</h2>
 	<p>Owo 乾我不知道簡介要打什麼 (求假掰文寫手)</p>
 </div>
 
 <div class="box_1">
-	<h2>QA</h2>
+	<h2>Q&amp;A</h2>
 	<p>
 	Q:如何申請學校宿舍? (<span style="color: #cc0000;">新生住宿申請開放時間: 2018/08/01 ~ 08/15</span>)<br>
 	A:進到 <a href="http://140.123.4.10/dormapply/" target="_blank">大學部宿舍管理系統</a><br>
