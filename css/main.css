@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 #main {
 	background: -ms-linear-gradient(#E3B35E,#E2C790,#E3B35E);
@@ -33,4 +34,41 @@
 	float: left;
 	margin-right: 20px;
 	margin-top: 5px;
+=======
+@charset "utf-8";
+#main {
+	background: -ms-linear-gradient(#E3B35E,#E2C790,#E3B35E);
+	background: -webkit-linear-gradient(#E3B35E,#E2C790,#E3B35E);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #FFFFFF;
+	padding: 20px;
+	margin-top: 0px;
+	-webkit-box-shadow: 0px 1px 10px #000000;
+	box-shadow: 0px 1px 10px #000000;
+}
+#main h1 {
+	text-align: left;
+}
+
+#main h2 {
+	margin-top: 35px;
+	font-size: 28px;
+	margin-bottom: 25px;
+	border-style: none;
+}
+#main h3 {
+	margin-top: 55px;
+}
+
+
+#main p {
+	font-size: 20px;
+}
+
+#main img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+>>>>>>> 22dad2852579d21e87c9ff74f25f760422b935b7
 }
