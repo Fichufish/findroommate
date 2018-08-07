@@ -1,0 +1,11 @@
+@charset "utf-8";
+#post {
+	background-image: url(../images/main.png);
+	width: 418px;
+	height: 627px;
+}
+#news {
+	font-size: 20px;
+	text-indent: 15px;
+	border-bottom: thin solid #458CBC;
+}
