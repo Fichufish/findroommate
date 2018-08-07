@@ -4,8 +4,8 @@ require("../connection/connect.php");
     $floor = $_POST['floor'];
     $room = $_POST['room'];
     $bed = $_POST['bed'];
-    $name = $_POST['name'];
-    $link = $_POST['link'];
+    $name = strip_tags($_POST['name']);
+    $link = strip_tags($_POST['link']);
 	
 	$str = $building.$floor.$room;
 	$num = intval($str);
