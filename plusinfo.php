@@ -14,7 +14,7 @@
 
 <div class="box_1">
 	<h2>登錄資料</h2>
-	每筆資料只能輸入一次，修改資料<a href="https://goo.gl/forms/uJtL0rWNR4AQVjCB3" target="_blank">請點我</a>
+	每筆資料只能輸入一次，修改資料<a href="https://goo.gl/forms/9duQVpg9eH89txAs1" target="_blank">請點我</a>
 	<br><br>
 	<form method="POST" action="admin/addinfo.php">
 		<select name="building">
