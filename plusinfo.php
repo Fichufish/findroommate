@@ -14,7 +14,7 @@
 
 <div class="box_1">
 	<h2>登錄資料</h2>
-	每筆資料只能輸入一次，修改資料<a href="report.php">請點我</a>
+	每筆資料只能輸入一次，修改資料<a href="https://goo.gl/forms/uJtL0rWNR4AQVjCB3" target="_blank">請點我</a>
 	<br><br>
 	<form method="POST" action="admin/addinfo.php">
 		<select name="building">
@@ -58,7 +58,7 @@
 	if($_GET['errMsg']==1) {
 		echo "姓名欄位不可為空Owo";
 	}else if($_GET['errMsg']==2) {
-		echo "此床位已被搶先check in惹 (?";
+		echo "此床位已被搶先check in了 (?";
 	}else if($_GET['errMsg']==3) {
 		echo "登錄成功";
 	}

@@ -43,7 +43,7 @@ if((trim(htmlentities($_POST['room'], ENT_QUOTES)))!=NULL) {
 			}
 ?>
 		</table>
-		<p><a href="report.php">資料有誤?點我回報</a></p>
+		<p><a href="https://goo.gl/forms/uJtL0rWNR4AQVjCB3" target="_blank">資料有誤?點我回報</a></p>
 <?php
 		}else {
 			echo "同學還沒check in~也可能是打錯房號啦ˊˇˋ";
