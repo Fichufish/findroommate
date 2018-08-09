@@ -7,7 +7,6 @@
 body {
 	color: #666666;
 	font-family: "Arial Unicode MS", "Microsoft JhengHei";
-	background-image: url(../images/bg_circle.png);
 }
 
 #wrapper {
@@ -46,7 +45,7 @@ nav {
 
 #content {
 	height: auto;
-	margin:150px auto 70px auto;
+	margin:70px auto 70px auto;
 	background: #FFFFFF;
 	padding: 20px;
 	border-bottom-left-radius: 10px;
