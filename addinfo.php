@@ -1,5 +1,5 @@
 <?php
-require("../connection/connect.php");
+require("connection/connect.php");
     $building = $_POST['building'];
     $floor = $_POST['floor'];
     $room = $_POST['room'];
@@ -11,16 +11,16 @@ require("../connection/connect.php");
 	$num = intval($str);
 
 	if($name==NULL){
-		header("location: ../plusinfo.php?errMsg=1");
+		header("location: plusinfo.php?errMsg=1");
 	}else {
 		$sql = "SELECT * FROM roommates WHERE room='$num' AND bed='$bed'";
 		$result = $connection->query($sql);
 		$total = $result->rowCount();
 		if($total>0) {
-			header("location: ../plusinfo.php?errMsg=2");
+			header("location: plusinfo.php?errMsg=2");
 		}else {
 			$connection->exec("INSERT INTO roommates values(NULL,'$num','$bed','$name','$link')");
-			header("location: ../plusinfo.php?errMsg=3");
+			header("location: plusinfo.php?errMsg=3");
 		}
 	}
 ?>

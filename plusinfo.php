@@ -14,9 +14,9 @@
 
 <div class="box_1">
 	<h2>登錄資料</h2>
-	每筆資料只能輸入一次，修改資料<a href="https://goo.gl/forms/9duQVpg9eH89txAs1" target="_blank">請點我</a>
+	每筆資料只能輸入一次，修改資料<a href="https://goo.gl/forms/9duQVpg9eH89txAs1" target="_blank">請點我(需要登入google帳號)</a>
 	<br><br>
-	<form method="POST" action="admin/addinfo.php">
+	<form method="POST" action="addinfo.php" onSubmit="return CheckForm();">
 		<select name="building">
 			<option value="1" selected="selected">A</option>
 			<option value="2">B</option>
@@ -72,4 +72,13 @@
 <?php include('templates/_footer.php'); ?>
 </div>
 </body>
+<script>
+function CheckForm() {
+	if(confirm("確認送出?")==true) {
+		return true;
+	}else {
+		return false;
+	}
+}
+</script>
 </html>
